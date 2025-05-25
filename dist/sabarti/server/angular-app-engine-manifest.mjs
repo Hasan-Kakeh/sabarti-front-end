@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/sabarti',
+  basePath: '/sabarti-front-end',
   supportedLocales: {
   "en-US": ""
 },
