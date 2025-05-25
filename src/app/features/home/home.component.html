@@ -1,0 +1,266 @@
+<section
+  class="hero relative flex items-center justify-center py-12 md:py-24 px-12"
+>
+  <img
+    src="icons/cactus2.svg"
+    class="rotate-320 z-0 absolute start-[6vw] top-20 w-24 h-24 opacity-10"
+    alt=""
+  />
+  <img
+    src="icons/cactus3.svg"
+    class="rotate-30 z-0 absolute start-[40vw] top-[60dvh] w-24 h-24 opacity-10"
+    alt=""
+  />
+ 
+  <div
+    class="flex relative z-1 flex-col md:flex-row items-center justify-around gap-8 md:gap-10 w-full"
+  >
+    <div class="text-center md:text-right">
+      <h1
+        class="text-3xl md:text-6xl font-bold text-green-700 leading-relaxed mb-4"
+      >
+        أضف لمسة خضراء لحياتك
+      </h1>
+      <p class="text-lg md:text-3xl text-gray-700 leading-relaxed">
+        🌵 اكتشف تشكيلتنا المختارة من الصبّارات والزهور 🌸
+        <br />
+        ✨ ابدأ رحلتك النباتية اليوم!
+      </p>
+      <button
+        class="btn btn-primary mt-8 px-8 flex items-center gap-2 block mx-auto md:mx-0"
+      >
+        تسوق الآن
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="flex justify-center md:justify-end">
+      <div
+        class="rounded-xl max-w-60 md:max-w-84 flex items-center justify-center"
+      >
+        <img
+          src="images/hero-img.webp"
+          alt=""
+          class="w-full h-auto object-contain"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="recommend">
+  <h2 class="px-8 pb-8 text-3xl font-semibold text-center">
+    موصى بها لمحبي الصبّار
+  </h2>
+  <swiper-container
+    class="flex gap-4 overflow-hidden"
+    #swiperRecommendation
+    init="false"
+  >
+    <swiper-slide class="p-2 min-w-72">
+      <article
+        class="relative card bg-white w-full shadow-md rounded-xl overflow-hidden transition-shadow hover:shadow-lg p-4"
+      >
+        <figure>
+          <img
+            class="w-full h-52 object-contain"
+            src="images/hero-img.webp"
+            alt="صبار أصابع الذهب - Mammillaria elongata في أصيص أنيق"
+            loading="lazy"
+          />
+          <figcaption class="sr-only">
+            صبار أصابع الذهب في أصيص خزفي مناسب للمبتدئين
+          </figcaption>
+        </figure>
+
+        <div class="p-2">
+          <div class="flex justify-between items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-800">
+              صبار أصابع الذهب
+            </h3>
+            <p class="text-green-600 font-bold text-base">29 ر.س</p>
+          </div>
+
+          <p class="text-sm text-gray-500 mb-2">
+            نبات داخلي صغير وسهل العناية، مثالي للمبتدئين.
+          </p>
+
+          <button
+            class="btn btn-primary w-full mt-3"
+            aria-label="أضف صبار أصابع الذهب إلى السلة"
+          >
+            أضف إلى السلة
+          </button>
+        </div>
+
+        <span
+          class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full absolute top-2 right-2"
+        >
+          مثالي للمبتدئين 🌿
+        </span>
+      </article>
+    </swiper-slide>
+    <swiper-slide class="p-2 min-w-72">
+      <article
+        class="relative card bg-white w-full shadow-md rounded-xl overflow-hidden transition-shadow hover:shadow-lg p-4"
+      >
+        <figure>
+          <img
+            class="w-full h-52 object-contain"
+            src="images/hero-img.webp"
+            alt="صبار أصابع الذهب - Mammillaria elongata في أصيص أنيق"
+            loading="lazy"
+          />
+          <figcaption class="sr-only">
+            صبار أصابع الذهب في أصيص خزفي مناسب للمبتدئين
+          </figcaption>
+        </figure>
+
+        <div class="p-2">
+          <div class="flex justify-between items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-800">
+              صبار أصابع الذهب
+            </h3>
+            <p class="text-green-600 font-bold text-base">29 ر.س</p>
+          </div>
+
+          <p class="text-sm text-gray-500 mb-2">
+            نبات داخلي صغير وسهل العناية، مثالي للمبتدئين.
+          </p>
+
+          <button
+            class="btn btn-primary w-full mt-3"
+            aria-label="أضف صبار أصابع الذهب إلى السلة"
+          >
+            أضف إلى السلة
+          </button>
+        </div>
+
+        <span
+          class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full absolute top-2 right-2"
+        >
+          مثالي للمبتدئين 🌿
+        </span>
+      </article>
+    </swiper-slide>
+    <swiper-slide class="p-2 min-w-72">
+      <article
+        class="relative card bg-white w-full shadow-md rounded-xl overflow-hidden transition-shadow hover:shadow-lg p-4"
+      >
+        <figure>
+          <img
+            class="w-full h-52 object-contain"
+            src="images/hero-img.webp"
+            alt="صبار أصابع الذهب - Mammillaria elongata في أصيص أنيق"
+            loading="lazy"
+          />
+          <figcaption class="sr-only">
+            صبار أصابع الذهب في أصيص خزفي مناسب للمبتدئين
+          </figcaption>
+        </figure>
+
+        <div class="p-2">
+          <div class="flex justify-between items-center mb-1">
+            <h3 class="text-lg font-semibold text-gray-800">
+              صبار أصابع الذهب
+            </h3>
+            <p class="text-green-600 font-bold text-base">29 ر.س</p>
+          </div>
+
+          <p class="text-sm text-gray-500 mb-2">
+            نبات داخلي صغير وسهل العناية، مثالي للمبتدئين.
+          </p>
+
+          <button
+            class="btn btn-primary w-full mt-3"
+            aria-label="أضف صبار أصابع الذهب إلى السلة"
+          >
+            أضف إلى السلة
+          </button>
+        </div>
+
+        <span
+          class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full absolute top-2 right-2"
+        >
+          مثالي للمبتدئين 🌿
+        </span>
+      </article>
+    </swiper-slide>
+  </swiper-container>
+  <div class="py-4">
+    <button class="btn mx-auto block btn-wide rounded-full">مشاهدة المزيد</button>
+  </div>
+</section>
+<section class="py-12 bg-green-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center text-green-900 mb-8">تصفح الأقسام</h2>
+  
+      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        
+        <!-- Card: Indoor -->
+        <div class="bg-white rounded-xl shadow hover:shadow-md transition p-4 text-center">
+          <img src="images/indoor-cactus.webp" alt="صبّار داخلي" class="w-full h-40 object-contain mb-4">
+          <h3 class="text-lg font-semibold text-green-900">صبّار داخلي</h3>
+          <p class="text-sm text-gray-600 mt-2">نباتات مثالية للزينة الداخلية وسهلة العناية.</p>
+        </div>
+  
+        <!-- Card: Outdoor -->
+        <div class="bg-white rounded-xl shadow hover:shadow-md transition p-4 text-center">
+          <img src="images/outdoor-cactus.webp" alt="صبّار خارجي" class="w-full h-40 object-contain mb-4">
+          <h3 class="text-lg font-semibold text-green-900">صبّار خارجي</h3>
+          <p class="text-sm text-gray-600 mt-2">أنواع تتحمل الشمس والحرارة، مثالية للحدائق.</p>
+        </div>
+  
+        <!-- Card: Aloe Vera -->
+        <div class="bg-white rounded-xl shadow hover:shadow-md transition p-4 text-center">
+          <img src="images/aloe-vera.webp" alt="نبات الألوفيرا" class="w-full h-40 object-contain mb-4">
+          <h3 class="text-lg font-semibold text-green-900">نبات الألوفيرا</h3>
+          <p class="text-sm text-gray-600 mt-2">فوائد طبية وجمالية كثيرة، نبات ضروري في كل بيت.</p>
+        </div>
+  
+        <!-- Card: Supplies -->
+        <div class="bg-white rounded-xl shadow hover:shadow-md transition p-4 text-center">
+          <img src="images/tools.webp" alt="مستلزمات الزراعة" class="w-full h-40 object-contain mb-4">
+          <h3 class="text-lg font-semibold text-green-900">مستلزمات الزراعة</h3>
+          <p class="text-sm text-gray-600 mt-2">أحواض، تربة، أدوات وأكثر لتجربة زراعية ممتعة.</p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+<section class="bg-white py-12 px-6 text-right">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+    <!-- الصورة -->
+    <img
+      src="images/aloe-vera.jpg"
+      alt="نبات الألوفيرا"
+      class="w-full h-auto rounded-xl shadow-md"
+    />
+
+    <!-- النص -->
+    <div>
+      <h2 class="text-3xl font-bold text-green-800 mb-4">
+        الألوفيرا 🌿 نبتة العناية الطبيعية
+      </h2>
+      <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+        اكتشف منافع الألوفيرا المذهلة في ترطيب البشرة، علاج الحروق، تعزيز صحة
+        الشعر والمناعة. نبتة علاجية وزينة طبيعية في آنٍ واحد!
+      </p>
+      <a href="/products/aloe-vera" class="btn btn-secondary block rounded-full inline-flex">
+        اكتشف نبتة الألوفيرا
+      </a>
+    </div>
+  </div>
+</section>

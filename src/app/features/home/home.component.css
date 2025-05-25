@@ -1,0 +1,6 @@
+.hero{
+    min-height: calc(100dvh - 92px);
+}
+.recommend{
+    background: linear-gradient(to bottom, var(--color-base-100), white);
+}
