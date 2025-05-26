@@ -2,17 +2,17 @@
 @import "tailwindcss";
 @plugin "daisyui" {
   themes: plant --default;
- }
- @plugin "daisyui/theme" {
+}
+@plugin "daisyui/theme" {
   name: "plant";
   default: true; /* set as default theme */
   prefersdark: false; /* disable dark mode by default */
   color-scheme: light; /* set light mode for browser UI */
 
   /* Base colors (backgrounds & text) */
-  --color-base-100: oklch(98% 0.02 240);   /* main background */
-  --color-base-200: oklch(95% 0.03 240);   /* slight contrast background */
-  --color-base-300: oklch(92% 0.04 240);   /* input backgrounds, cards */
+  --color-base-100: oklch(98% 0.02 240); /* main background */
+  --color-base-200: oklch(95% 0.03 240); /* slight contrast background */
+  --color-base-300: oklch(92% 0.04 240); /* input backgrounds, cards */
   --color-base-content: oklch(20% 0.05 240); /* text */
 
   /* Primary (deep green for CTA buttons) */
@@ -58,12 +58,19 @@
   --noise: 0;
 }
 
-html,body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-html{
-    --font-family: 'Cairo', sans-serif;
+html {
+  --font-family: "Cairo", sans-serif;
 }
-body{
-    font-family: var(--font-family);
+body {
+  font-family: var(--font-family);
+}
+html:has(.drawer-toggle:checked) {
+  overflow: hidden;
+  @media screen and (width>768px) {
+    margin-inline-start: 1.1rem;
+  }
 }

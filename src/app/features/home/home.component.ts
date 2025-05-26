@@ -21,6 +21,7 @@ import { type SwiperOptions } from 'swiper/types';
   styleUrl: './home.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
+
 })
 export class HomeComponent implements OnInit,AfterViewInit {
   readonly swiperRecommendation = viewChild<ElementRef<SwiperContainer>>(
