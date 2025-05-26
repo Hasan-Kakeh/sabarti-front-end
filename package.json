@@ -36,7 +36,6 @@
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
     "angular-cli-ghpages": "^2.0.3",
-    "autoprefixer": "^10.4.21",
     "daisyui": "^5.0.37",
     "jasmine-core": "~5.6.0",
     "karma": "~6.4.0",
@@ -46,6 +45,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "prettier": "^3.5.3",
     "tailwindcss": "^4.1.7",
-    "typescript": "~5.7.2"
+    "typescript": "~5.7.2",
+    "purgecss": "^5.0.0"
   }
 }
